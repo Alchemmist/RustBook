@@ -1,7 +1,8 @@
-fn main() {
-    another_function(5);
+fn five() -> i64 {
+    589
 }
 
-fn another_function(x: i32) {
-    println!("Your argumet is {x}");
+fn main() {
+    let x = five();
+    println!("x = {x}")
 }
